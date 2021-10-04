@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#121725;
+}
+
+.container {
+    width: 80%;
+    height: 70vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+;
+    background-color: #121725;
+    background-image: url(./img/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-position: right;
+    align-items:center
+  
+}
+.logo {
+    top: -400px;
+    position:relative;
+  }
+
+
+.content {
+    width: 51%;
+    min-height: 378px;
+    background-color: #121725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.content h1 {
+    
+  font-weight: lighter;
+  font-family: Chivo-light;
+  font-size: 52px;
+  color: #54e6af;
+  text-transform: uppercase;
+}
+
+.p-about {
+    margin: 20px 0;
+
+
+    font-weight: 500;
+    line-height: 25px;
+    width: 60%;
+    color: #c2cbe5;
+    font-family: Chivo-light;
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+.title-white{
+ color: #ffffff;;
+}
+
+.content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: inline-flex;
+    margin-right:1.5em;
+}
+  
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .left {
+        width: 100%;
+        height: 400px;
+    }
+
+    .right {
+        width: 90%;
+        margin: 0;
+        margin-top: -100px;
+
+    }
+}
